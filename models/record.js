@@ -21,7 +21,7 @@ const recordSchema = new Schema({
     required: true,
   },
   categoryId: {
-    type: Schema.Types.ObjectId,
+    type: Number, //用number就好，不需要Schema.Types.ObjectId之類複雜的
     ref: "Category",
     index: true,
     required: true,
