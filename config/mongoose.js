@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+require("dotenv").config();
 const MONGODB_URI = process.env.MONGODB_URI;
 // 設定連線到 mongoDB
 mongoose.connect(MONGODB_URI, {

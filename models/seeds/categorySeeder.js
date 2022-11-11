@@ -1,5 +1,5 @@
 //npm run seed  建議categorySeeder先做
-const bcrypt = require("bcryptjs");
+
 //因為種子資料檔是一個獨立執行的檔案，它沒經過app.js，所以這裡要寫一次，不然db(mongoose)中的process.env.MONGODB_URI讀不到
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
@@ -8,7 +8,6 @@ if (process.env.NODE_ENV !== "production") {
 const Category = require("../category");
 //注意，這句要放在dotenv後面，才會有採用到環境變數
 const db = require("../../config/mongoose");
-const category = require("../category");
 
 const SEED_CATEGORIES = [
   {
