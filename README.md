@@ -1,18 +1,18 @@
 # Expense-Tracker
 
-這是一個簡易的記帳本。
-使用者須先註冊，登入後可以進行新增、編輯、刪除支出，以及瀏覽各項支出等功能。
-目前提供篩選支出分類，在主畫面會顯示總金額。
-此應用程式亦發布於 Heroku，連結:
-測試帳號: 名稱/email/密碼
-帳號 1:廣志/hiroshi@test.com/nh35
+這是一個簡易的記帳本。  
+使用者須先註冊，登入後可以進行新增、編輯、刪除支出，以及瀏覽各項支出等功能。  
+目前提供篩選支出分類，在主畫面會顯示總金額。  
+此應用程式亦發布於 Heroku，連結:  
+測試帳號: 名稱/email/密碼  
+帳號 1:廣志/hiroshi@test.com/nh35  
 帳號 2:小新/shin@test.com/ns05
 
 ---
 
 ## 專案畫面
 
-![Index page](./public/image/index4.png)
+![Index page](./public/image/index.png)
 
 ---
 
