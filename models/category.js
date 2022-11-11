@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const categorySchema = new Schema({
-  //需要給id
+  //id待了解
   id: {
     type: Number,
     required: true,
