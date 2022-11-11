@@ -1,14 +1,14 @@
-const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
 const categorySchema = new Schema({
-  //id待了解
+  // id待了解
   id: {
     type: Number,
-    required: true,
+    required: true
   },
   name: {
     type: String,
-    required: true,
-  },
-});
-module.exports = mongoose.model("Category", categorySchema);
+    required: true
+  }
+})
+module.exports = mongoose.model('Category', categorySchema)
