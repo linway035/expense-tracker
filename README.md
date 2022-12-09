@@ -13,6 +13,8 @@
 ## 專案畫面
 
 ![Index page](./public/image/index.png)
+登入畫面，登入可選擇用facebook登入
+![Index page](./public/image/login畫面.png)
 
 ---
 
